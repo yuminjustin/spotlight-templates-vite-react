@@ -1,0 +1,243 @@
+.logo {
+    height: 64px;
+    color: #fff;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 18px;
+    overflow: hidden;
+    margin-bottom: -4px;
+  }
+  
+  .logo svg,
+  .logo span {
+    display: block;
+    float: left;
+    margin: 14px auto;
+  }
+  
+  .logo span {
+    margin: 0 0 0 6px;
+    font-size: 18px;
+    color: #fff;
+  }
+  .content {
+    padding: 16px;
+  }
+  
+  ._error_404 {
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+  }
+  
+  ._error_404 p {
+    line-height: 64px;
+    font-size: 24px;
+    color: rgb(138, 138, 138);
+    text-align: center;
+  }
+  
+  ._error_404 p.tec {
+    color: #000;
+    font-size: 16px;
+  }
+  
+  ._error_404 p.tec span {
+    color: #6a84f2;
+  }
+  
+  .hello_icon {
+    display: block;
+  }
+  
+  .tec_list {
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  .sp_logo {
+    border-radius: 8px;
+  }
+  
+  .head {
+    background: #fff;
+    box-shadow: 0 2px 6px #dedede;
+    text-align: right;
+    padding: 0 16px;
+  }
+  .head span {
+    margin-right: 12px;
+    color: #fff;
+  }
+  
+  /* todo demo */
+  
+  .mainbox {
+    width: 500px;
+    padding: 20px 10px 0;
+    border: solid 1px #ddd;
+    border-radius: 8px;
+    margin-top: 15px;
+    background: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .mainbox h1 {
+    text-align: center;
+  }
+  
+  .addbox {
+    width: 380px;
+    margin: 12px auto;
+    clear: both;
+  }
+  
+  .addbox label {
+    margin-right: 15px;
+  }
+  
+  .addbox label input[type="checkbox"] {
+    margin: 9px 2px 0 0;
+  }
+  
+  input[type="text"] {
+    background: #fff;
+    border: solid 1px #ddd;
+    border-radius: 8px;
+    text-indent: 6px;
+  }
+  
+  button {
+    border-radius: 8px;
+  }
+  
+  .addbox input[type="text"] {
+    height: 30px;
+    width: 260px;
+  }
+  
+  .addbox button {
+    height: 30px;
+    padding: 0 8px;
+    display: block;
+    float: right;
+    margin-top: 2px;
+    line-height: 30px;
+  }
+  
+  .listbox {
+    width: 520px;
+    margin-left: -10px;
+    clear: both;
+    overflow: hidden;
+  }
+  
+  .listbox ul li {
+    line-height: 36px;
+    border-bottom: solid 1px #ddd;
+    min-height: 36px;
+    padding: 12px 15px;
+    overflow: hidden;
+  }
+  
+  .listbox ul li:hover {
+    background: #f3f5de;
+  }
+  
+  .listbox ul li:last-of-type {
+    border: none;
+  }
+  
+  .listbox ul li input[type="checkbox"] {
+    margin: 11px 11px 11px 0;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+  }
+  
+  .listbox ul li input[type="text"] {
+    width: 280px;
+    height: 32px;
+  }
+  
+  .listbox ul li div.l {
+    width: 50%;
+  }
+  
+  .listbox ul li div.l span {
+    width: 100%;
+  }
+  
+  .selected span {
+    text-decoration: line-through;
+  }
+  
+  .operate {
+    width: 160px;
+    text-align: center;
+    float: right;
+  }
+  
+  .listbox ul li button {
+    display: inline-block;
+    padding: 0 8px;
+    height: 30px;
+    line-height: 30px;
+  }
+  
+  .last_info {
+    height: 40px;
+    line-height: 40px;
+  }
+  
+  .info {
+    margin-right: 28px;
+    float: left;
+  }
+  
+  .choose_btn {
+    float: left;
+  }
+  
+  .choose_btn span {
+    display: block;
+    float: left;
+    border: solid 1px #dedede;
+    height: 24px;
+    line-height: 24px;
+    margin: 8px;
+    padding: 0 8px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  .choose_btn span:hover {
+    background: #6a84f2;
+    border-color: #6a84f2;
+    color: #fff;
+  }
+  
+  .choose_btn span.active {
+    background: #ce4949;
+    color: #fff;
+    border-color: #ce4949;
+  }
+  
+  .del {
+    line-height: 30px;
+    height: 30px;
+    padding: 0 15px;
+    margin: 6px;
+    float: right;
+  }
+  
+  .mainbox button:hover {
+    background: #6a84f2;
+    color: #fff;
+  }
+  
