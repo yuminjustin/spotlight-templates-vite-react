@@ -3,14 +3,14 @@ import { Observer } from "mobx-react";
 
 const Heads = (props: any) => {
   const { todos } = props;
-  const ipt = useRef(null);
+  const ipt = useRef<HTMLInputElement | null>(null);
   const all = useRef(null);
 
   const clickHandler = (): void => {
-    let v = ipt.current.value;
+    let v = ipt.current?.value;
     if (v) {
       todos.addTodo(v);
-      ipt.current.value = "";
+      ipt.current && (ipt.current.value = "");
     }
   };
 
