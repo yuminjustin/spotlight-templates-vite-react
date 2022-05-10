@@ -15,8 +15,7 @@ spotlight scaffold react template for typescript with vite<br>
 
 此模板是react+typescript环境<br>
 
-1.配置在build/config.js 当中；<br>
-  Configures in build/config.js <br><br>
+1.配置在vite.config.ts 当中；<br>
 2.内置Todo示例
 
 Let's react ，enjoy!
